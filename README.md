@@ -7,22 +7,28 @@
 ## Install
 
 ```bash
-npm install --save pixton
+npm i pixtton
 ```
 
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import { Pixton } from 'pixtton'
+import 'pixtton/dist/index.css'
 
-import MyComponent from 'pixton'
-import 'pixton/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+function App() {
+  return (
+    <div>
+      <Pixton type='primary'> Primary Button </Pixton>
+      <Pixton type='default'> Default Button </Pixton>
+      <Pixton type='dashed'> Dashed Button </Pixton>
+      <Pixton type='text'> Text Button </Pixton>
+      <Pixton type='link'> Link Button </Pixton>
+    </div>
+  )
 }
+
+export default App
 ```
 
 ## License
