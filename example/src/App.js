@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Pixton } from 'pixton'
 import 'pixton/dist/index.css'
-import 'index.css'
+
 const App = () => {
   return (
     <div>
