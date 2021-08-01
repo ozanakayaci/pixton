@@ -13,8 +13,8 @@ npm i pixtton
 ## Usage
 
 ```jsx
-import { Pixton } from 'pixtton'
-import 'pixtton/dist/index.css'
+import { Pixton } from 'pixton'
+import 'pixton/dist/index.css'
 
 function App() {
   return (
@@ -30,6 +30,8 @@ function App() {
 
 export default App
 ```
+
+[DEMO](https://tangible-action.surge.sh/)
 
 ## License
 
