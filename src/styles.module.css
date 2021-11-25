@@ -1,6 +1,7 @@
 /* add css module styles here (optional) */
 
 .btn {
+  padding: 5px;
   font-family: OCR A Std, monospace;
   font-size: 16px;
   font-weight: 400;
