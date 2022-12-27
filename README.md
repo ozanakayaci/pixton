@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm i pixtton
+npm i pixton
 ```
 
 ## Usage
